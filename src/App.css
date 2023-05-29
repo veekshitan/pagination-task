@@ -29,3 +29,20 @@
   border-radius: 10px;
   cursor: pointer
 }
+
+@media screen and (max-width: 768px) {
+  .heading {
+    margin-top: 100px;
+    font-size: large;
+  }
+  
+  .content {
+    flex-direction: column;
+  }
+  
+  .nxt_button {
+    margin-top: 20px;
+    font-size: small;
+    padding: 10px 30px;
+  }
+}
